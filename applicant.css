@@ -1,0 +1,61 @@
+.applicant {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+.image {
+    background: #000;
+}
+.applicant-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+.applicant-details .img {
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 5px;
+}
+.personal-details {
+    background-color: cadetblue;
+    display: flex;
+    margin: 15px;
+}
+.personal-details ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.personal-details li {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+.extras{
+    background-color: coral;
+}
+.extras .contact {
+    border-radius: 5px;
+    width: 100%;
+    margin-left: 10px;
+    padding-left: 10px;
+    background: green;
+    height: 50px;
+    color: black;
+}
+.extras .contact  a {
+    margin: 0px;
+    color: black;
+    font-size: 2.4rem;
+    text-decoration: none;
+}
+@media screen and (min-with: 1000px) {
+    .applicant {
+        display: flex;
+        flex: row;
+        flex-wrap: nowrap;
+        
+    }
+}
