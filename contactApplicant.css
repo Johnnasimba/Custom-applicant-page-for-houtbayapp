@@ -1,0 +1,8 @@
+.contact-applicant .form-group {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+.contact-applicant .form-group input {
+    height: 50px;
+}
