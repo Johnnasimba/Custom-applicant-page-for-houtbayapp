@@ -2,10 +2,11 @@
     display: flex;
     justify-content: center;
     margin: 10px;
+    margin-bottom: 50px;
 
 }
 .image {
-    background: #000;
+    /* background: #000; */
 }
 .applicant-details {
     display: flex;
@@ -19,13 +20,14 @@
     margin-bottom: 5px;
 }
 .personal-details {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     display: flex;
-    margin: 15px;
+    margin: 15px 15px 15px 0px;
 }
 .personal-details ul {
     list-style-type: none;
     padding: 0px;
+    margin: 0px;
 }
 .personal-details li {
     display: flex;
@@ -34,21 +36,21 @@
     padding: 0px;
 }
 .extras{
-    background-color: coral;
+    /* background-color: coral; */
 }
 .extras .contact {
+    background: green;
     border-radius: 5px;
-    width: 100%;
+    width: 250px;
     margin-left: 10px;
     padding-left: 10px;
-    background: green;
     height: 50px;
     color: black;
 }
 .extras .contact  a {
     margin: 0px;
     color: black;
-    font-size: 2.4rem;
+    font-size: 2.0rem;
     text-decoration: none;
 }
 @media screen and (min-with: 1000px) {
