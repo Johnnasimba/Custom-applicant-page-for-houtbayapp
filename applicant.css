@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 .image {
     /* background: #000; */
 }
 .applicant-details {
+    background: #f9f9f9;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 0px;
   
 }
 .applicant-details .img {
